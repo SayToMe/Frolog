@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
@@ -34,6 +35,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Frolog.Tests", "tests\Frolog.Tests\Frolog.Tests.fsproj", "{2E6AEC62-CDF8-4370-94BC-70F4F07D0E99}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Frolog.CustomRules", "src\Frolog.CustomRules\Frolog.CustomRules.fsproj", "{FCD6239C-BA45-40A9-BCB0-115522799BBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "measurement", "measurement", "{73C4CBA3-FC03-4958-82A8-FFE2F898F4C3}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Frolog.Measurements", "measurement\Frolog.Measurements\Frolog.Measurements.fsproj", "{5B2BD6E6-515C-4631-9D93-1B795AC18924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +55,14 @@ Global
 		{2E6AEC62-CDF8-4370-94BC-70F4F07D0E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6AEC62-CDF8-4370-94BC-70F4F07D0E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E6AEC62-CDF8-4370-94BC-70F4F07D0E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD6239C-BA45-40A9-BCB0-115522799BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD6239C-BA45-40A9-BCB0-115522799BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD6239C-BA45-40A9-BCB0-115522799BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD6239C-BA45-40A9-BCB0-115522799BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2BD6E6-515C-4631-9D93-1B795AC18924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2BD6E6-515C-4631-9D93-1B795AC18924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2BD6E6-515C-4631-9D93-1B795AC18924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2BD6E6-515C-4631-9D93-1B795AC18924}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +71,6 @@ Global
 		{83F16175-43B1-4C90-A1EE-8E351C33435D} = {A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}
 		{8E6D5255-776D-4B61-85F9-73C37AA1FB9A} = {A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}
 		{2E6AEC62-CDF8-4370-94BC-70F4F07D0E99} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+		{5B2BD6E6-515C-4631-9D93-1B795AC18924} = {73C4CBA3-FC03-4958-82A8-FFE2F898F4C3}
 	EndGlobalSection
 EndGlobal
