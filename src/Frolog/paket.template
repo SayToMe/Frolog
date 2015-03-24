@@ -1,0 +1,23 @@
+type project
+owners
+    Smirnov Pavel
+authors 
+    Smirnov Pavel
+projectUrl
+    http://github.com/SayToMe/Frolog
+iconUrl
+    https://raw.githubusercontent.com/SayToMe/Frolog/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/SayToMe/Frolog/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    prolog logic proof
+summary
+    Frolog - F# implementation of Prolog.
+description
+    Frolog is an implementation of Prolog interpreter for the use in F# user code or in fsi.
+
+
